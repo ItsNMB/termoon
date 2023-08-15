@@ -81,6 +81,7 @@
     - termoon.dump()
 
     - termoon.log.setlevel(lvl)
+    - termoon.log.setfile(file)
     - termoon.log.trace(...)
     - termoon.log.debug(...)
     - termoon.log.info(...)
@@ -377,6 +378,9 @@ termoon.log.outfile = nil
 termoon.log.level   = "trace"
 termoon.log.setlevel = function(level)
   termoon.log.level = level
+end
+termoon.log.setoutfile = function(outfile)
+  termoon.log.outfile = outfile
 end
 termoon.logf, termoon.loglf = {}, {}
 

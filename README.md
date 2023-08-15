@@ -15,35 +15,35 @@ set `termoon.colored` to true or false (for now only affects logging)
 
 ## Functions
 ### Colors
-- termoon.colors.<color>(str)
+- `termoon.colors.<color>(str)`
 ### Clearing
-- termoon.clear()
-- termoon.cleareol()
+- `termoon.clear()`
+- `termoon.cleareol()`
 ### Cursor
-- termoon.cursor.jump(1, 1)
-- termoon.cursor.goup(1)
-- termoon.cursor.godown(1)
-- termoon.cursor.goright(1)
-- termoon.cursor.goleft(1)
-- termoon.cursor.save()
-- termoon.cursor.restore()
+- `termoon.cursor.jump(1, 1)`
+- `termoon.cursor.goup(1)`
+- `termoon.cursor.godown(1)`
+- `termoon.cursor.goright(1)`
+- `termoon.cursor.goleft(1)`
+- `termoon.cursor.save()`
+- `termoon.cursor.restore()`
 ### Serialization
-- termoon.serialize()
-- termoon.deserialize()
-- termoon.line()
-- termoon.block()
-- termoon.dump()
+- `termoon.serialize()`
+- `termoon.deserialize()`
+- `termoon.line()`
+- `termoon.block()`
+- `termoon.dump()`
 ### Logging
-- termoon.log.setlevel(lvl)
-- termoon.log.setfile(file)
-- termoon.log.trace(...)
-- termoon.log.debug(...)
-- termoon.log.info(...)
-- termoon.log.warn(...)
-- termoon.log.error(...)
-- termoon.log.fatal(...)
-- termoon.logf.<type>(str, ...)
-- termoon.loglf.<type>(str, vars)
+- `termoon.log.setlevel(lvl)`
+- `termoon.log.setfile(file)`
+- `termoon.log.trace(...)`
+- `termoon.log.debug(...)`
+- `termoon.log.info(...)`
+- `termoon.log.warn(...)`
+- `termoon.log.error(...)`
+- `termoon.log.fatal(...)`
+- `termoon.logf.<type>(str, ...)`
+- `termoon.loglf.<type>(str, vars)`
 ### Formatted printing
-- termoon.prinf(str, ...)
-- termoon.prinlf(str, vars)
+- `termoon.prinf(str, ...)`
+- `termoon.prinlf(str, vars)`
