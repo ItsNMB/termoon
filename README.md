@@ -1,14 +1,15 @@
 # termoon
 Terminal util library - includes serpent, log.lua and lua-term.
 
-[serpent](https://github.com/pkulchenko/serpent)
-[log.lua](https://github.com/rxi/log.lua)
-[lua-term](https://github.com/hoelzro/lua-term)
+- [serpent](https://github.com/pkulchenko/serpent)
+- [log.lua](https://github.com/rxi/log.lua)
+- [lua-term](https://github.com/hoelzro/lua-term)
 
-termoon doesn't depend on ('require') the libraries mentioned above.
-I wanted it to be just one file so that was the only way of doing that.
-I also had to slightly modify the libraries.
-Should work with Lua Versions 5.3, 5.2 and 5.1 but i only tested 5.4.
+termoon doesn't depend on ('require') the libraries mentioned above.  
+I wanted it to be just one file so that was the only way of doing that.  
+I also had to slightly modify the libraries.  
+Should work with Lua Versions 5.3, 5.2 and 5.1 but i only tested 5.4.  
+For now, isatty() doesn't work because i havn't found a lua implementation yet.  
 
 ## Options
 set `termoon.colored` to true or false (for now only affects logging) 
