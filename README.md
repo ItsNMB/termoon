@@ -14,10 +14,10 @@ set `termoon.colored` to true or false (for now only affects logging)
 
 ## Functions
 - termoon.colors.<color>(str)
-- 
+
 - termoon.clear()
 - termoon.cleareol()
-- 
+
 - termoon.cursor.jump(1, 1)
 - termoon.cursor.goup(1)
 - termoon.cursor.godown(1)
@@ -25,16 +25,16 @@ set `termoon.colored` to true or false (for now only affects logging)
 - termoon.cursor.goleft(1)
 - termoon.cursor.save()
 - termoon.cursor.restore()
-
+- 
 - termoon.serialize()
 - termoon.deserialize()
 - termoon.line()
 - termoon.block()
 - termoon.dump()
-
+- 
 - termoon.log.setlevel(lvl)
 - termoon.log.setfile(file)
-- 
+
 - termoon.log.trace(...)
 - termoon.log.debug(...)
 - termoon.log.info(...)
